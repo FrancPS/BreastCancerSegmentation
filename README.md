@@ -13,13 +13,18 @@ This whole process will be included in a user-friendly application that will sho
 Available from: https://www.researchgate.net/publication/338488138_Pectoral_Muscle_Segmentation_in_Tomosynthesis_Images_Using_Geometry_Information_and_Grey_Wolf_Optimizer
 
 ## Installation Guide
-MATLAB Runtime must be installed in your computer in order to run the .exe file of the application.
-Go to releases and download the release .zip file.
-Extract the files in your computer.
-Run BreastSegmentationApp.exe
+I dont have the full licence of Matlab so I can't create the standalone executable file. If any time I am able to do so, i will create a release for the program. Meanwhile, follow the next steps to try it.
 
-## Using the GUI
-1.  Open the executable file 'BreastSegmentationApp.exe'.
+## Code Usage
+To run the files through Matlab, you will need the following
+- A Matlab 2019+ installed in your computer
+- The following Matlab add-ons:
+  - Image Processing Toolbox
+  - Mapping Toolbox
+  - Maximum Inscribed Circle using Distance Transform
+
+## Using the App
+1.  Open the executable file 'SegMammo.m' on Matlab, and click RUN.
 2.  Click 'Browse' to select the image in your system, or write the path manually in the 'Image path' text-box.
 3.  Click 'Load' to load the image into the workspace.  It will be displayed in the centerpart of the window. This is the base image you will work from now on, until another image is loaded.
 4. OPTIONAL: Open the popup menu and choose an optimization process. Default option is an unoptimized execution.
